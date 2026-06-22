@@ -24,6 +24,18 @@ To verify the synchronous SPI timings and binary outputs, an 8-channel logic ana
 
 By exporting the simulation trace as a `.vcd` (Value Change Dump) file and loading it into a waveform viewer (`vcdrom.github.io`), we observe the exact clock-to-data behavior:
 
+<img width="983" height="616" alt="image" src="https://github.com/user-attachments/assets/6409022a-ccf1-4c89-be7c-85f5f5129c46" />
+
+<img width="983" height="616" alt="image" src="https://github.com/user-attachments/assets/178c3ef5-a05b-435d-8a44-954983df979d" />
+
+<img width="983" height="616" alt="image" src="https://github.com/user-attachments/assets/7b5f32cf-4225-4dc2-a39f-43c1f76c15b6" />
+
+<img width="983" height="616" alt="image" src="https://github.com/user-attachments/assets/a63c138a-5554-4f4c-8907-c8962a08cd4b" />
+
+
+
+
+
 
 
 
