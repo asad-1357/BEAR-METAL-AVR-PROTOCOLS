@@ -17,11 +17,15 @@ To verify the synchronous SPI timings and binary outputs, an 8-channel logic ana
 | **D6** | 74HC595 Pin 3 ($Q_3$) | Bit 3 - Toggles every 1.6s |
 | **D7** | 74HC595 Pin 7 ($Q_7$) | MSB (Most Significant Bit) - Toggles every 25.6s |
 
----
+<img width="650" height="567" alt="image" src="https://github.com/user-attachments/assets/04bc51fa-81b2-4472-92c3-6a0bbc14bd26" />
+
 
 ## 📈 Waveform Analysis & Observations
 
 By exporting the simulation trace as a `.vcd` (Value Change Dump) file and loading it into a waveform viewer (`vcdrom.github.io`), we observe the exact clock-to-data behavior:
+
+
+
 
 ### 1. SPI Protocol Verification (D0, D1, D2)
 * **Clock Idle State:** The SPI peripheral is configured in **Mode 0** ($\text{CPOL}=0$, $\text{CPHA}=0$). The clock line (`D0`) remains stable **LOW** during idle periods and bursts into exactly 8 clean square wave pulses only during active transmissions.
